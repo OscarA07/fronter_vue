@@ -15,12 +15,12 @@ const router = new Router ({
     mode: 'history',
     routes: [
         {
-            path: '/home',
+            path: '/',
             name: 'landing',
             component: Landing
         },
         {
-            path: '/',
+            path: '/home',
             name: 'home',
             component: Home
         },
